@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header id="header">
+    <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" />
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/lDxEYSRU9EI?si=fHybPBkPH18XOQ1q"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email">Email: <input type="email" id="email" name="email" placeholder="Enter Your Email" required /></label>
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </section>
+    <section id="products">
+      <h2>Our Products</h2>
+      <div class="product-container">
+        <div class="product">
+          <img src="https://via.placeholder.com/150" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut odio tellus.</p>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/150" alt="Product 2">
+          <h3>Product 2</h3>
+          <p>Integer tincidunt risus nec lacus laoreet, a bibendum metus aliquet. Nam quis erat ligula.</p>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/150" alt="Product 3">
+          <h3>Product 3</h3>
+          <p>Curabitur lacinia, sapien non tincidunt euismod, justo est venenatis risus, a consectetur purus orci eu metus.</p>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/150" alt="Product 4">
+          <h3>Product 4</h3>
+          <p>Fusce dignissim augue ut nisl ultrices, non ultrices lacus scelerisque.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <p>All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
